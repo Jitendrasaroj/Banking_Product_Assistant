@@ -37,7 +37,7 @@ You need **Python 3.10 or newer** and **git**.
 ### 1. Get the code
 
 ```bash
-git clone https://github.com/NisargKadam/rag-and-guardrails.git
+git clone https://github.com/Jitendrasaroj/Banking_Product_Assistant.git
 cd rag-and-guardrails
 ```
 
@@ -129,8 +129,8 @@ Things to try:
 ### Lesson 2: Search pipeline
 
 ```bash
-python scripts/02_search.py "how much protein should i eat to build muscle?"
-python scripts/02_search.py "is it ok to drink water while exercising" --top-k 2
+python scripts/02_search.py "What is the minimum average monthly balance for the Basic Savings Account?"
+python scripts/02_search.py "What is the minimum balance for the Demo Rewards Credit Card?" --top-k 2
 ```
 
 ```mermaid

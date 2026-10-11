@@ -175,7 +175,7 @@ Things to try:
 
 ```bash
 python scripts/04_agent.py
-python scripts/04_agent.py "what should I eat before a workout?"
+python scripts/04_agent.py "what is the minimum credit score for loan?"
 ```
 
 The first command starts a chat; type `quit` to stop. For every question you see a trace of each node the graph visited.
@@ -196,7 +196,7 @@ Things to try:
 
 ```
 data/
-  pdfs/                     your fitness PDFs
+  pdfs/                     your bank information PDFs
   guardrail_training.csv    training examples for the NLU guardrail
 scripts/                    the four lessons
 src/BankingAssistant_agent/

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fitness-agent"
+version = "0.1.0"
+description = "Study project: RAG and guardrails with LangGraph"
+requires-python = ">=3.10"
+dependencies = [
+    "rich>=13.7.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
